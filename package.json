@@ -1,6 +1,6 @@
 {
   "name": "sensus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sensus is an abstraction layer to use various AI/ML APIs/services like detecting emotions in text i.e. sentiment analysis",
   "main": "dist/index.js",
   "files": [
