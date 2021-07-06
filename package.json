@@ -1,0 +1,45 @@
+{
+  "name": "sensus",
+  "version": "1.0.0",
+  "description": "sensus is an abstraction layer to use various AI/ML APIs/services like detecting emotions in text i.e. sentiment analysis",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:ts": "tsc -b tsconfig.build.json",
+    "build": "npm run clean && npm run build:ts",
+    "clean": "rm -rf dist",
+    "sample1": "node ./bin/index.js ./samples/sample1.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/sensus.git"
+  },
+  "keywords": [
+    "sensus",
+    "emotion",
+    "detect",
+    "ai",
+    "ml",
+    "abstraction",
+    "sentiment",
+    "analysis"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/sensus/issues"
+  },
+  "homepage": "https://github.com/muratyaman/sensus#readme",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  }
+}
